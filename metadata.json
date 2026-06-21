@@ -1,0 +1,6 @@
+{
+  "name": "SurveilX AI",
+  "description": "Enterprise AI-Powered CCTV Monitoring & Loss Prevention platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
