@@ -1342,7 +1342,7 @@ export default function CareersSection() {
               {[
                 {
                   q: "Is this a genuine work-from-home job?",
-                  a: "Yes. This is a 100% remote camera-monitoring role with CamscapeAI. You apply online, complete your profile, sign a digital employment agreement, and receive a unique Employee ID before you begin paid training."
+                  a: "Yes. This is a 100% remote camera-monitoring role with SurveilXAI. You apply online, complete your profile, sign a digital employment agreement, and receive a unique Employee ID before you begin paid training."
                 },
                 {
                   q: "Is the webinar mandatory?",

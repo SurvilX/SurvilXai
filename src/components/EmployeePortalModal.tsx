@@ -330,7 +330,7 @@ export default function EmployeePortalModal({ isOpen, onClose, defaultTab = 'log
                     </div>
                   </div>
                   <span className="text-sm font-black tracking-tight font-sans text-slate-900">
-                    Camscape<span className="text-[#EF4444]">AI</span>
+                    SurveilX<span className="text-[#EF4444]">AI</span>
                   </span>
                 </div>
                 
@@ -559,7 +559,7 @@ export default function EmployeePortalModal({ isOpen, onClose, defaultTab = 'log
                 {/* FOOTER */}
                 <div className="pt-4 border-t border-slate-100 text-center">
                   <p className="text-[9px] text-[#A1A1AA] font-semibold tracking-wide font-sans leading-relaxed select-none max-w-sm mx-auto">
-                    © 2026 CamscapeAI · CamscapeAI never asks for any registration, deposit or advance fee.
+                    © 2026 SurveilXAI · SurveilXAI never asks for any registration, deposit or advance fee.
                   </p>
                 </div>
 

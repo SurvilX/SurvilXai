@@ -920,7 +920,7 @@ export default function KeyStoreAndPasskey({
                     </div>
                     <div className="text-left font-sans">
                       <p className="text-[12px] font-bold text-slate-800 leading-tight">Security key</p>
-                      <p className="text-[10px] text-slate-500 mt-0.5 leading-none">Passkey for camscapeai.com</p>
+                      <p className="text-[10px] text-slate-500 mt-0.5 leading-none">Passkey for surveilxai.com</p>
                     </div>
                   </div>
                   <div className="h-5 w-5 bg-sky-100 text-[#0078D4] rounded-full flex items-center justify-center text-[11px] font-extrabold select-none shrink-0 font-serif">

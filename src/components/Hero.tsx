@@ -161,7 +161,7 @@ export default function Hero() {
               
               {/* HUD Header Bar */}
               <div className="flex justify-between items-center text-[10px] font-mono tracking-widest text-slate-400 font-bold pb-2 border-b border-white/5 uppercase">
-                <span>camscape • command center</span>
+                <span>surveilx • command center</span>
                 <span className="text-[9px] text-[#10B981] font-sans flex items-center gap-1 font-black">
                   <span className="h-1.5 w-1.5 rounded-full bg-[#10B981] animate-pulse" />
                   SECURE

@@ -42,12 +42,12 @@ export default function AboutUsSection() {
 
   return (
     <section id="about-section" className="py-24 bg-white text-navy relative overflow-hidden border-t border-slate-100">
-      
+
       {/* Decorative details */}
       <div className="absolute top-1/4 right-0 w-80 h-80 bg-red-500/5 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* About Headline Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
@@ -68,7 +68,7 @@ export default function AboutUsSection() {
             <div className="absolute inset-0 bg-radial-gradient(from 50% 50% at 50% 50%, rgba(255, 45, 45, 0.05) 0%, transparent 100%) pointer-events-none" />
 
             <h3 className="text-sm font-bold font-mono tracking-wider text-brand mb-4">ACTIVE PROTECTION STREAMS</h3>
-            
+
             <div className="space-y-4 font-sans text-xs">
               <div className="flex items-start gap-4 p-3 rounded-lg bg-slate-950/60 border border-slate-900">
                 <div className="h-8 w-8 rounded bg-red-500/10 text-brand flex items-center justify-center border border-red-500/20 shrink-0">
@@ -95,7 +95,7 @@ export default function AboutUsSection() {
                   <Brain className="h-4 w-4" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white leading-none">AI Risk Detection</h4>
+                  <h4 className="font-bold text-white leading-none">Ai Risk Detection</h4>
                   <p className="text-slate-400 text-[11px] mt-1">Computer vision models trace product concealed postures instantly.</p>
                 </div>
               </div>
@@ -105,16 +105,15 @@ export default function AboutUsSection() {
 
         {/* CORE CORPORATE PROFILE STEPPER CARD SECTION (Section 11 items) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start" id="about-corporate-grids">
-          
+
           {/* Picker Left Side (4 Cols) */}
           <div className="lg:col-span-4 flex flex-col gap-3">
             <button
               onClick={() => setActiveValue('mission')}
-              className={`w-full text-left p-4 rounded-xl border transition-all duration-200 cursor-pointer ${
-                activeValue === 'mission'
+              className={`w-full text-left p-4 rounded-xl border transition-all duration-200 cursor-pointer ${activeValue === 'mission'
                   ? 'bg-[#0B132B] border-brand text-white shadow-md shadow-red-500/5'
                   : 'bg-slate-50 border-slate-100 text-slate-705 hover:bg-slate-100'
-              }`}
+                }`}
               id="btn-about-mission"
             >
               <div className="flex justify-between items-center">
@@ -125,11 +124,10 @@ export default function AboutUsSection() {
 
             <button
               onClick={() => setActiveValue('vision')}
-              className={`w-full text-left p-4 rounded-xl border transition-all duration-200 cursor-pointer ${
-                activeValue === 'vision'
+              className={`w-full text-left p-4 rounded-xl border transition-all duration-200 cursor-pointer ${activeValue === 'vision'
                   ? 'bg-[#0B132B] border-brand text-white shadow-md'
                   : 'bg-slate-50 border-slate-100 text-slate-705 hover:bg-slate-100'
-              }`}
+                }`}
               id="btn-about-vision"
             >
               <div className="flex justify-between items-center">
@@ -140,11 +138,10 @@ export default function AboutUsSection() {
 
             <button
               onClick={() => setActiveValue('values')}
-              className={`w-full text-left p-4 rounded-xl border transition-all duration-200 cursor-pointer ${
-                activeValue === 'values'
+              className={`w-full text-left p-4 rounded-xl border transition-all duration-200 cursor-pointer ${activeValue === 'values'
                   ? 'bg-[#0B132B] border-brand text-white shadow-md'
                   : 'bg-slate-50 border-slate-100 text-slate-705 hover:bg-slate-100'
-              }`}
+                }`}
               id="btn-about-values"
             >
               <div className="flex justify-between items-center">
@@ -157,7 +154,7 @@ export default function AboutUsSection() {
           {/* Stepper Card Display Right Side (8 Cols) */}
           <div className="lg:col-span-8">
             <div className="bg-slate-50/50 border border-slate-100 p-6 md:p-8 rounded-2xl min-h-[260px] flex flex-col justify-between">
-              
+
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="h-10 w-10 flex items-center justify-center rounded-lg bg-red-50 text-brand">
